@@ -1,0 +1,13 @@
+1.  创建项目文件结构
+
+2.  安装flask的虚拟环境virtualenv  (pip install virtualenv)
+安装完成之后可以使用命令：virtualenv --version  查看是否安装成功
+
+3.  创建虚拟环境（virtualenv venv），之后会在项目中创建一个env的文件夹，虚拟环境中的相关文件都会放在此文件夹中
+
+4.  激活虚拟环境（在使用这个虚拟环境之前，需要先将其激活，激活命令如下：venv\Scripts\activate）
+，激活后命令提示符前会显示（venv）
+
+5.  安装flask（pip install flask），可以创建一个测试项目进行测试
+
+6.  使用deactivate退出虚拟环境（venv\Scripts\deactivate）
